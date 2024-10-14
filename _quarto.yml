@@ -1,19 +1,39 @@
 project:
   type: website
+  execute-dir: project
+  output-dir: docs
+
+execute: 
+  freeze: true
+  engine: knitr
+  port: 8877
+  cache: true
 
 website:
-  title: "Laura_Rivoletti_ICMB_HS24."
+  title: "Example Laura_Rivoletti: ICMB portfolio"
+  back-to-top-navigation: true
+  page-navigation: true
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+        text: About
+  sidebar: 
+    collapse-level: 1
+    contents: 
+      - index.qmd
+      - hw1/index.qmd
+      
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
+    code-link: true
+    code-copy: true
+    code-tools: true
+    code-fold: true
+    code-overflow: wrap
+    page-layout: full
+    css: styles.css
 
 editor: visual
 
