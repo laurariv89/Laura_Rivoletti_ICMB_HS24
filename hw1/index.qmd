@@ -1,8 +1,4 @@
 ---
-
----
-
----
 title: "Assignment 1: Hello World"
 author: "Laura Rivoletti"
 ---
@@ -12,9 +8,4 @@ In this introductory assignment, I just want you to make a simple plot. Here is 
 ```{r}
 x <- rnorm(10000, mean = 100, sd = 15)
 hist(x)
-```
-
-```{r}
-source("data/my_functions.R")
-hello("Laura")
 ```

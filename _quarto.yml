@@ -4,24 +4,26 @@ project:
   output-dir: docs
 
 execute: 
-  freeze: true
+  freeze: auto
   engine: knitr
   port: 8877
   cache: true
 
 website:
-  title: "Example Laura_Rivoletti: ICMB portfolio"
+  title: "Laura_Rivoletti: ICMB portfolio"
   back-to-top-navigation: true
   page-navigation: true
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: "About"
+
   sidebar: 
     collapse-level: 1
     contents: 
       - index.qmd
       - hw1/index.qmd
+
       
 format:
   html:

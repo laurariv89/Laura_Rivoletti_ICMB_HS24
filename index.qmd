@@ -1,11 +1,7 @@
 ---
-title: "Laura_Rivoletti_ICMB_HS24."
+title: "About"
 ---
 
-This is a Quarto website.
+This website contains my ongoing assignments for the course Introduction to Computational Modeling of Behavior (HS24, University of Zurich).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+**\*\*Author**\*\***:** Laura Rivoletti
